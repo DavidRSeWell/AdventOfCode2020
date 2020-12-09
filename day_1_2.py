@@ -24,5 +24,6 @@ def main(data_path):
         print("Answer: " + str(lines[i]*lines[j]*lines[k])) 
 
 if __name__ == "__main__":
-    data_path =  "./day_1_input.txt"
+    data_path =  "./tday_1_input.txt"
     main(data_path)
+ 
