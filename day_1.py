@@ -8,7 +8,7 @@ def main(data_path):
     diff = 2020 - lines
     solutions = []
     for i in range(len(lines)):
-        if diff[i] in lines: 
+        if diff[i] in lines:
             j = np.where(lines == diff[i])[0]
 
             solutions.append((i,j))
@@ -18,5 +18,5 @@ def main(data_path):
         print("Answer: " + str(lines[i]*lines[j]))
 
 if __name__ == "__main__":
-    data_path = "./day_1_input.txt"
+    data_path = "data/day_1_input.txt"
     main(data_path)

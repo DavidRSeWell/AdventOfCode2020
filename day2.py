@@ -1,6 +1,4 @@
 
-
-
 def rule1(min,max,letter,pwd):
     letter_count = pwd.count(letter)
     if (letter_count <= max) and (letter_count >= min):
@@ -41,7 +39,7 @@ def run(file_path,rule=rule2):
 
 
 if __name__ == '__main__':
-    path = './day2.txt'
+    path = 'data/day2.txt'
 
     print("Running part 1")
     run(path,rule1)
